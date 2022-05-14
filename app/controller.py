@@ -17,7 +17,6 @@ class Controller():
     account = self._get_account()
     return self.bank.get_balance(account)
 
-
   def withdraw(self, amount):
     account = self._get_account()
     self._withdraw(account, amount)
